@@ -28,30 +28,6 @@ h1 {
     margin: 0;
 }
 
-nav li a {
-    padding: 20px;
-    color: blanchedalmond;
-    text-decoration: none;
-}
-
-nav li {
-    float: left;
-}
-
-nav ul {
-    float: right;
-    list-style: none;
-}
-
-nav {
-    font-size: 12px;
-    letter-spacing: 4px;
-    height: 50px;
-    background-color: #237e58;
-    padding-right: 20px;
-
-}
-
 table {
     width: 100%;
 }
@@ -59,12 +35,11 @@ table {
 table td {}
 
 table tr:nth-child(even) {
-    background-color: rgb(185, 185, 185);
-
+    background-color: rgb(207, 207, 207);
 }
 
 table tr:nth-child(odd) {
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(185, 185, 185);
 }
 
 table thead th {
@@ -72,17 +47,4 @@ table thead th {
     color: white;
     text-shadow: 1px 1px 1px #000000;
     text-transform: uppercase;
-}
-
-#pacotes .figuras figure {
-    display: inline-block;
-}
-
-#pacotes .figuras,
-#pacotes .video {
-    text-align: center;
-}
-
-#cabeçalho .logo{
-    text-align: center;
 }
