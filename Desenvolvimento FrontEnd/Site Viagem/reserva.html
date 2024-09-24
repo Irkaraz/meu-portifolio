@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveller Gamers</title>
+</head>
+
+
+<body>
+    <header id="cabeçalho">
+
+        <nav>
+            <ul>
+                <li><a href="#">Quem somos?</a></li>
+                <li><a href="#">Pacotes</a></li>
+                <li><a href="#">Taxas</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+
+ <br></br>
+
+        <h1>Traveller Gamers</h1>
+
+        <div class="logo">
+            <figure>
+                <img src="Imagens/Gamer’s Tra (1).png">
+            </figure>
+        </div>
+
+        <link rel="stylesheet" href="style.css">
+
+    </header>
+
+    <section>
+        <h2> Quem Somos?</h2>
+        <p>Traveller Gamers não é apenas uma agência de viagens, somos a ponte entre a sua paixão por games e a
+            experiência única de explorar o mundo. Imagine unir a emoção de um novo jogo com a descoberta de destinos
+            incríveis, tudo isso em uma só jornada! Nossa missão é criar memórias inesquecíveis, conectar jogadores e
+            inspirar a exploração.
+
+            Mergulhe em universos de games famosos, participe de eventos exclusivos, crie sua própria aventura e conte
+            com a ajuda de guias especializados que são verdadeiros apaixonados por games e viagens. Com a Gamer
+            Travellers, você não apenas viaja, você vive a sua paixão por games.</p>
+
+    </section>
+
+
+    <section id="pacotes">
+        <h2>Conheça nossos Pacotes!</h2>
+        <p>Quer viver a emoção dos games e da cultura pop de perto? A Traveller Gammers te leva para os maiores eventos
+            do Brasil, como a BGS, a Comic Con Experience e a Anime Friends! Imagine explorar os stands, conhecer seus
+            youtubers favoritos, participar de cosplay e ainda aproveitar para conhecer a cidade anfitriã. Nossos
+            pacotes incluem ingressos, hospedagem, transporte e até mesmo atividades extras para tornar sua experiência
+            ainda mais incrível. Descubra os nossos pacotes e embarque nessa aventura conosco!</p>
+        <br>
+
+        <div class="figuras">
+            <figure>
+                <img src="Imagens/ccxp.png">
+                <figcaption>CCXP24</figcaption>
+            </figure>
+
+            <figure>
+                <img src="Imagens/Design sem nome.png">
+                <figcaption>BGS24</figcaption>
+            </figure>
+
+            <figure>
+                <img src="Imagens/Design sem nome (1).png">
+                <figcaption>AF24</figcaption>
+            </figure>
+        </div>
+
+        <br></br>
+
+        <div class="video">
+            <video controls width="1080px">
+                <source src="video/CCXP24 _ O maior festival de cultura pop do mundo _ De 5 a 8 de dezembro.mp4"
+                    type="video/mp4">
+                <source src="video/CCXP24 _ O maior festival de cultura pop do mundo _ De 5 a 8 de dezembro.mp4"
+                    type="video/webm">
+            </video>
+        </div>
+
+    </section>
+
+    <section>
+        <h2>Taxas de Serviços</h2>
+        <table>
+            <caption>Descrição dos Serviços e Respectivos Valores</caption>
+            <thead>
+                <tr>
+                    <th>Serviço</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Reserva de Hotel</td>
+                    <td>R$500,00</td>
+                </tr>
+                <tr>
+                    <td>Aluguel de Carro</td>
+                    <td>R$300,00</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+    <section>
+        <h2>Formulário de Preenchimento para Reserva</h2>
+
+        <form action="" method="get">
+
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+                <label>Nome Completo:</label>
+                <input type="text" required ename="nome">
+
+                <br><br>
+
+                <label>e-mail:</label>
+                <input type="email" required name="email">
+
+                <br><br>
+
+                <fieldset>
+                    <legend>Serviços Desejados</legend>
+                    <label><input type="checkbox" name="passagens" value="Passagens">Compra de Passagens<br></label>
+
+                    <label>
+                        <input type="checkbox" name="reserva" value="Reserva">Reserva de Hospedagem<br>
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="veiculos" value="Veiculos">Aluguel de Veículos<br>
+                    </label>
+
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Forma de Pagamento</legend>
+                    <label>
+                        <input type="radio" required name="formaPagamento" value="CartaoDeCredito">Cartão de Crédito<br>
+                    </label>
+
+                    <label>
+                        <input type="radio" required name="formaPagamento" value="Boleto">Boleto<br>
+                    </label>
+
+                    <label>
+                        <input type="radio" required name="formaPagamento" value="Pix">Pix<br>
+                    </label>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Prazo para Pagamento</legend>
+                    <select name="prazoPagamento">
+                        <option value="aVista">À Vista</option>
+                        <option value="cincoVezes" selected>5x sem juros</option>
+                        <option value="dezVezes">10x com juros</option>
+                    </select>
+                </fieldset>
+
+            </fieldset>
+
+            <br>
+
+            <input type="submit" name="Enviar">
+
+        </form>
+    </section>
+</body>
